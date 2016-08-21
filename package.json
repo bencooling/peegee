@@ -1,0 +1,31 @@
+{
+  "name": "peegee",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=development DEBUG=peegee tap test/index.js",
+    "devtool": "NODE_ENV=development devtool provision"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "dotenv": "^2.0.0",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^5.2.2",
+    "nodemon": "^1.10.0",
+    "tap": "^6.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "mongo-sql": "^2.7.4",
+    "pg": "^6.1.0",
+    "pify": "^2.3.0",
+    "wikitable": "^0.1.4"
+  }
+}
