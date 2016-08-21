@@ -1,17 +1,20 @@
 # peegee
 
-> Postgres + json queries + transaction support with promises 
+> Postgres + json queries + transaction support with promises
+
 
 ## Installation
 
-**Create .env file**  
+- Requires es6.
+
+**1. Create .env file**  
 - Setup database connection variables.  
 - I recommend heroku free tier.  
 
-**Create and seed database**  
+**2. Create and seed database**  
 `migrate up`
 
-**Run test**  
+**3. Run test**  
 `npm test`
 
 
